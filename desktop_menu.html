@@ -14,11 +14,44 @@
             --text-input-field: #F7F7F7;
             --black: #000000;
             --hospital-green: #ACD9B2;
-            --dark: #232830;
-        }
-        
+            --dark: #232830;            
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }        
         body {
             font-family: "Quicksand", sans-serif;
+        }
+        .desktop-menu {
+            border-radius: 8px;
+            width: 150px;
+            box-shadow: 0px 0px 4px var(--very-light-pink);
+        }
+        .desktop-menu ul{
+            padding: 0;
+            margin: 0;
+            padding: 24px;
+        }
+        .desktop-menu li{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        .desktop-menu a{
+            text-decoration: none;
+            color: var(--black);
+            font-size: var(--md);
+            font-weight: 600;
+            margin-bottom: 24px;
+            text-align: end;
+            width: 100%;
+        }
+        .desktop-menu a:last-child{
+            border-top: var(--very-light-pink) solid 0.5px;
+            padding-top: 24px;
+            margin-bottom: 0;
+            color: var(--hospital-green);
+            font-size: var(--sm);
         }
     </style>
 </head>
@@ -26,9 +59,9 @@
     <div class="desktop-menu">
         <ul>
             <li>
-                <a href="/"></a>
-                <a href="/"></a>
-                <a href="/"></a>
+                <a href="/">My orders</a>
+                <a href="/">My account</a>
+                <a href="/">Sign out</a>
             </li>
         </ul>
     </div>
