@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>YardSale</title>
+
+    <style>        
+        :root {
+            --very-light-pink: #C7C7C7;
+            --white: #FFFFFF;
+            --text-input-field: #F7F7F7;
+            --black: #000000;
+            --hospital-green: #ACD9B2;
+            --dark: #232830;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body {            
+            font-family: "Quicksand", sans-serif;
+        }
+        .body-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .order-container{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 300px;
+        }
+        .resume {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .detail {
+            display: flex;
+            flex-direction: column;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="body-container">
+        <div class="order-container">
+            <h1 class="title">My order</h1>
+            <div class="resume">
+                <div class="detail">
+                    <span>01.25.2021</span>
+                    <span>6 articles</span>
+                </div>
+                <div class="total">
+                    <span>$560.00</span>
+                </div>
+            </div>
+            <div class="items">
+
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
